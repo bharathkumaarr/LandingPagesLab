@@ -1,0 +1,29 @@
+.video{
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.video .vh1{
+    position: absolute;
+    top: 19%;
+    left: 1%;
+    font-size: 17px;
+    color: #d5540f;
+    width: 50px;
+
+    font-family: Monument Extended;
+    
+    
+
+}
+
+.vabout {
+    position: absolute;
+    top: 26%;
+    left: 1%;
+    font-size: 17px;
+    color: #000000;
+    width: 100px;
+
+    font-family: Monument Extended;
+}
