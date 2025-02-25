@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cooper LT BT';
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.nav {
+    /* background-color: red; */
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav h1 {
+    font-size: 28px;
+    transition: 0.4s ease;
+}
+.nav h1:hover {
+    scale: 0.9;
+    color: rgb(83, 83, 83);
+}
+
+.nav .part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .part2 a {
+    text-decoration: none;
+    color: #222;
+    margin: 20px;
+    cursor: pointer;
+    transition: ease;
+}
+.nav .part2 a:hover {
+    text-decoration: underline springgreen;
+
+}
+.nav .part2 a:nth-last-child(1){
+    /* background-color: yellow; */
+    padding: 7px 18px;
+    border-radius: 50px;
+
+    position: relative;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #222;
+}
+
+.nav .part2 a:nth-last-child(1) .green {
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: left 0.4s ease;
+}
+.nav .part2 a:nth-last-child(1) h5 {
+    font-weight: 100;
+    position: relative;
+    z-index: 99;
+}
+
+.nav .part2 a:nth-last-child(1):hover .green {
+    left: 0;
+}
+
+.main>h1 {
+    font-size: 5.4vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    /* background-color: red; */
+    width: 60%;
+    text-align: center;
+    z-index: 99;
+
+    position: relative;
+    margin-bottom: 50px;
+
+}
+
+.main>h1::after {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 16px;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    bottom: -5%;
+    left: 50%;
+    background-size: cover;
+    transform: translate(-50%,0);
+
+}
+
+.main .img1 {
+    height: 600px;
+    width: 390px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}
+.main .img2 {
+    height: 250px;
+    width: 270px;
+    position: absolute;
+    right: 20%;
+    top: 23%;
+}
+.main .img3 {
+    height: 210px;
+    width: 200px;
+    position: absolute;
+    right: 7%;
+    bottom: 6%;
+}
+
+.main img {
+    transition: margin 0.5s ease;
+}
+
+.main img:hover {
+    margin-top: -20px;
+}
+
+.moreout {
+    
+    border: 1px solid #222;
+    border-radius: 50px;
+    padding: 5px 20px;
+    position: relative;
+    
+    overflow: hidden;
+    background-color: #fff;
+
+    transition: all 0.4s ease;
+}
+.moreout .morein {
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+}
+.moreout::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: springgreen;
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    transition: left 0.4s ease; 
+}
+.moreout:hover::before {
+    left: 0; 
+}
+.morein h4 {
+    margin: 0; 
+    font-weight: 100; 
+    color: #222; 
+}
