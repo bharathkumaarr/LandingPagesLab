@@ -1,6 +1,6 @@
-[01] https://mclaren-landing.netlify.app/  
-[02] https://jovial-bonbon-7ef2ec.netlify.app/  
-[03] https://sparkly-maamoul-59ff54.netlify.app/  
-[05] https://times-clock.netlify.app
+- https://mclaren-landing.netlify.app/  
+- https://jovial-bonbon-7ef2ec.netlify.app/  
+- https://sparkly-maamoul-59ff54.netlify.app/  
+- https://times-clock.netlify.app
+- https://finta-clone.vercel.app/
 
-[06] https://finta-clone.vercel.app/ 
